@@ -57,23 +57,23 @@ class Tools:
 
 ### Tool Usage
 
-    Ensure that the tool is selected in the + menu on the left-hand side of the dialog entry bar.
+Ensure that the tool is selected in the + menu on the left-hand side of the dialog entry bar.
 
-    Give the AI an explicit instruction, in this case: `Add to memory: "User loves chocolate"`
+Give the AI an explicit instruction, in this case: `Add to memory: "User loves chocolate"`
 
 
 ### Responses
 
-    The response from the server is awaited and parsed into response_data.
+The response from the server is awaited and parsed into response_data.
 
-    The response data is printed for debugging purposes.
+The response data is printed for debugging purposes.
 
-    A success message with the response_data is returned.
+A success message with the response_data is returned.
 
 
 ### Exception Handling
 
-    Any exceptions that occur during the process are caught and printed.
+Any exceptions that occur during the process are caught and printed.
 
-    An error message indicating the failure is returned.
+An error message indicating the failure is returned.
 
