@@ -5,7 +5,7 @@ title: Tools
 
 # Tools Documentation
 
-`Tools` allow you to add specific, callable functionality and capability to the AI LLMs hosted within OpenWebUI. You can be super creative with this, letting your AI user perform an unlimited number of customizable actions such as reaching out to an external API, modifying a file, or connecting to an external data source. The potential is only limited by your imagination. 😊
+_Tools_ allow you to add specific, callable functionality and capability to the AI LLMs hosted within OpenWebUI. You can be super creative with this, letting your AI user perform an unlimited number of customizable actions such as reaching out to an external API, modifying a file, or connecting to an external data source. The potential is only limited by your imagination. 😊
 
 ## Example Tool: Add to Memory
 
@@ -53,6 +53,7 @@ class Tools:
         except Exception as e:
             print(e)
             return f"Error adding memory: {str(e)}"
+```
 
 ### Tool Usage
 
