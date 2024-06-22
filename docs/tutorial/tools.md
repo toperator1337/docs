@@ -55,14 +55,14 @@ class Tools:
             return f"Error adding memory: {str(e)}"
 ```
 
-### Tool Usage
+## Tool Usage
 
 Ensure that the tool is selected in the + menu on the left-hand side of the dialog entry bar.
 
 Give the AI an explicit instruction, in this case: `Add to memory: "User loves chocolate"`
 
 
-### Responses
+## Responses
 
 The response from the server is awaited and parsed into response_data.
 
@@ -70,10 +70,7 @@ The response data is printed for debugging purposes.
 
 A success message with the response_data is returned.
 
-
-### Exception Handling
-
-Any exceptions that occur during the process are caught and printed.
+Any exceptions that occur during the process are caught and printed. Often the AI will not report these but be aware of them, so you can ask it about them. For further errors, refer to the OWUI docker logs.
 
 An error message indicating the failure is returned.
 
