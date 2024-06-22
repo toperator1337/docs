@@ -59,7 +59,7 @@ class Tools:
 
     Ensure that the tool is selected in the + menu on the left-hand side of the dialog entry bar.
 
-    Give the AI an explicit instruction: Add to memory: "User loves chocolate"
+    Give the AI an explicit instruction, in this case: `Add to memory: "User loves chocolate"`
 
 
 ### Responses
